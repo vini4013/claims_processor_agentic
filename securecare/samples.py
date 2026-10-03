@@ -14,8 +14,8 @@ def sample_raw_claim(kind: str = "simple", today: Optional[date] = None) -> Dict
     today = today or date.today()
     adm, dis = today - timedelta(days=20), today - timedelta(days=16)
     raw: Dict[str, Any] = {
-        "claimant": {"name": "Rajesh Kumar", "relationship": "self", "mobile": "9876543210",
-                     "email": "rajesh.kumar@example.com", "city": "Bengaluru", "pincode": "560001"},
+        "claimant": {"name": "Vinita Yadav", "relationship": "self", "mobile": "9876543210",
+                     "email": "vinita.yadav@example.com", "city": "Bengaluru", "pincode": "560001"},
         "policy_number": "POL-458921",
         "hospitalization": {"hospital_name": "City Care Hospital", "admission_date": adm,
                             "discharge_date": dis, "diagnosis": "Acute appendicitis",
