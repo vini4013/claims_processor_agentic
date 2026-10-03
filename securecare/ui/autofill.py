@@ -74,7 +74,7 @@ def render_autofill(settings: Settings) -> None:
             "the form below. Bill numbers and bill dates are never guessed, so add them yourself."
         )
         text = st.text_area("Your message", key="autofill_text", height=140, max_chars=MAX_FREE_TEXT_CHARS,
-                            placeholder="Hi, this is Rajesh Kumar, policy POL-458921. I was admitted to City Care "
+                            placeholder="Hi, this is Vinita Yadav, policy POL-458921. I was admitted to City Care "
                                         "Hospital from 10 to 14 September ... room 24,000, surgery 65,000 ...")
         if not st.button("Extract and fill the form", disabled=not text.strip()):
             return

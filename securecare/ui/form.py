@@ -162,7 +162,7 @@ def render_claim_form() -> ValidationResult:
     st.subheader("1 · Claimant")
     c1, c2 = st.columns(2)
     with c1:
-        _text("Full name", "claimant.name", errors, "Rajesh Kumar", 60)
+        _text("Full name", "claimant.name", errors, "Vinita Yadav", 60)
         _text("Mobile number", "claimant.mobile", errors, "9876543210", 16)
         _text("City", "claimant.city", errors, "Bengaluru", 50)
     with c2:
